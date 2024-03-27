@@ -1,8 +1,11 @@
 [package]
 name = "hyena"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+inkjet = "0.10.3"
+comrak = "0.21.0"
+gray_matter = "0.2"
